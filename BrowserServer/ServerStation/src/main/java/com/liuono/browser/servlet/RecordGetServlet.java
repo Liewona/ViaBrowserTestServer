@@ -28,7 +28,6 @@ public class RecordServlet extends HttpServlet {
             List list = recordDao.getData("");
             String result = JSON.toJSONString(list);
             resp.getWriter().print(result);
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
