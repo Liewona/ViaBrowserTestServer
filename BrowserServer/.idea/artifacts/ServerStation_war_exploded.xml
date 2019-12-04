@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServerStation:war exploded">
+    <output-path>$PROJECT_DIR$/ServerStation/target/ServerStation</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ServerStation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="fastjson-1.2.13" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ServerStation/target/ServerStation/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ServerStation/web/Web" />
+    </root>
+  </artifact>
+</component>
